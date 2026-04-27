@@ -1,6 +1,6 @@
 module github.com/RAMPAGEXP/ethermint
 
-go 1.18
+go 1.23
 
 require (
 	cosmossdk.io/math v1.0.0-beta.3
@@ -38,7 +38,7 @@ require (
 	golang.org/x/text v0.3.8
 	google.golang.org/genproto v0.0.0-20220815135757-37a418bb8959
 	google.golang.org/grpc v1.50.0
-	google.golang.org/protobuf v1.28.1
+	google.golang.org/protobuf v1.36.11
 	sigs.k8s.io/yaml v1.3.0
 )
 
@@ -101,7 +101,7 @@ require (
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/btree v1.0.1 // indirect
-	github.com/google/go-cmp v0.5.8 // indirect
+	github.com/google/go-cmp v0.7.0 // indirect
 	github.com/google/orderedcode v0.0.1 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/googleapis/enterprise-certificate-proxy v0.1.0 // indirect
